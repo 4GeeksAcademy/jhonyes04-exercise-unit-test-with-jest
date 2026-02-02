@@ -19,8 +19,4 @@ const formYenToPound = (yen) => {
     return parseFloat(resultado.toFixed(2));
 };
 
-console.log(formDollarToYen(1))
-console.log(formEuroToDollar(1))
-console.log(formYenToPound(1))
-
 module.exports= { formDollarToYen, formEuroToDollar, formYenToPound};
